@@ -1,0 +1,18 @@
+# Core numerical/image processing
+numpy
+opencv-python
+
+# Deep learning
+torch
+torchvision
+
+# Object detection
+ultralytics
+
+# Depth estimation / tracking
+norfair
+
+# Web UI
+gradio
+timm
+Pillow

@@ -1,0 +1,97 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+*.ipynb
+.jupyter/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.weights
+*.ckpt
+*.h5
+*.onnx
+*.pb
+weights/
+checkpoints/
+models/weights/
+
+# Training outputs and logs
+runs/
+outputs/
+results/
+logs/
+*.log
+tensorboard/
+wandb/
+
+# Data files (large files)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+
+# OS and system files
+.env
+.env.local
+.DS_Store
+Thumbs.db
+*.bak
+
+# IDE/Temp files
+*.tmp
+*.temp
+.vscode/settings.json
+.vscode/launch.json
+
+# Compiled C++ extensions
+*.so
+*.pyd
+*.dll
+
+# macOS
+.AppleDouble
+.LSOverride
+*.swp

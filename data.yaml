@@ -1,0 +1,30 @@
+# YOLO dataset configuration
+#
+# This file is intentionally portable: do not put a personal computer
+# path here. Run training from the repository root, or set DATA_YAML
+# to the location of this file.
+#
+# Expected repository/dataset structure:
+#
+# dataset/
+# ├── images/
+# │   ├── train/
+# │   │   ├── image1.jpg
+# │   │   └── image2.jpg
+# │   └── val/
+# │       └── image3.jpg
+# └── labels/
+#     ├── train/
+#     │   ├── image1.txt
+#     │   └── image2.txt
+#     └── val/
+#         └── image3.txt
+#
+# Each image should have a corresponding YOLO-format label file.
+
+path: .
+train: images/train
+val: images/val
+
+nc: 3
+names: ["beetroot", "radish", "potato"]

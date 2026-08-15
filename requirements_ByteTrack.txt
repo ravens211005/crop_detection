@@ -1,0 +1,28 @@
+# Web interface
+gradio
+
+# Computer vision
+opencv-python
+numpy
+
+# Deep learning
+torch
+torchvision
+
+# YOLO object detection
+ultralytics
+
+# ByteTrack / YOLOX dependencies
+loguru
+scipy
+pycocotools
+tabulate
+tqdm
+
+# Cython dependency used by some ByteTrack implementations.
+# On Windows this may require Microsoft Visual C++ Build Tools.
+Cython
+cython_bbox
+
+# MiDaS and ByteTrack source code are expected to be supplied
+# locally in the repository or through user-configured paths.
