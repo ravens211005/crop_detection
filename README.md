@@ -1,7 +1,7 @@
 # Crop Detection, Tracking and Depth Estimation
 
 A computer-vision project for **crop detection, object tracking, and relative depth estimation** using YOLO11n, ByteTrack/Norfair, MiDaS, OpenCV, and Gradio.
-
+conference paper: https://ieeexplore.ieee.org/abstract/document/11497174
 ## Project Components
 
 - `train.py` — trains a custom YOLO11n crop detector.
